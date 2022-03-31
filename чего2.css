@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Smooch Sans', sans-serif;
+}
+header {
+    background-color: rgb(106, 170, 54);
+    /* min-height: 10vh; */
+    display: flex;
+    /* width: 100vw; */
+}
+main {
+    background-color: darkgrey;
+    display: flex;
+    min-height: 80vh;
+    padding: 20px;
+    /* width: 100vw; */
+}
+footer {
+    background-color: rgb(71, 109, 27);
+    min-height: 10vh;
+    padding: 10px;
+    /* width: 100vw; */
+}
+.colamns {
+    display: flex;
+    /* width: 50vh; */
+    margin: 0 5vw;
+}
+.col {
+    /* width: 100vw; */
+    max-width: 45vw;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column; 
+}
+.dev-text {
+    text-align: center;
+}
+.card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 30vw;
+}
+.card-img {
+    height: 15vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+h2 {
+    margin: 0;
+}
+.logo-img {
+    height: 5vh;
+    margin: 5px;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+	width: 100%;
+}
+
+li {
+	float: left;
+	width: auto;
+    color: azure;
+}
+
+a {
+	background: rgb(106, 170, 54);
+    display: block;
+    font: bold 13px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+    color: black;
+}
+li:hover a {
+	background: #ccffd0;
+}
+.video {
+    background-color: #cecece;
+}
